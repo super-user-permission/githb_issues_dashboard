@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.borderRadius15 {
+  border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fontConfig {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontXS {
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fontM {
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.issueLabel {
+  padding: 0 7px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border: 1px solid transparent;
+  border-radius: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h5, .h5:hover {
+  color: #0366d6;
+  cursor: pointer;
+}
+
+.iconColor {
+  fill: #22863a;
+}
+
+.bodypop {
+  /* white-space: nowrap; */
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  width: 50%;
+  height: 150px;
+  padding: 15px;
+  -webkit-line-clamp: 4;
+}
+
+.tag {
+  background-color: #D1D5DA80;
+}
+
+#issues:hover {
+  background-color: #f6f8fa;
+}
+
+a {
+  text-decoration: none!important;
+  color: black !important;
+}
+
+a:hover {
+  color: #0366d6 !important;
 }
